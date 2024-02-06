@@ -7,3 +7,6 @@ export default class MyHeader extends LitElement {
     `;
   }
 }
+
+customElements.define('lit-header', MyHeader);
+

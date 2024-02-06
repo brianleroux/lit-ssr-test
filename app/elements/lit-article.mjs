@@ -7,3 +7,5 @@ export default class MyArticle extends LitElement {
     `;
   }
 }
+
+customElements.define('lit-article', MyArticle);

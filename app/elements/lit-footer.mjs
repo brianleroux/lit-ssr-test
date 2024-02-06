@@ -7,3 +7,5 @@ export default class MyFooter extends LitElement {
     `;
   }
 }
+
+customElements.define('lit-footer', MyFooter);

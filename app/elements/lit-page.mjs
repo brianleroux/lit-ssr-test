@@ -7,9 +7,13 @@ import './lit-footer.mjs';
 export default class MyPage extends LitElement {
   render() {
     return html`
+      <b>hi</b>
       <lit-header></lit-header>
       <lit-article></lit-article>
       <lit-footer></lit-footer>
     `;
   }
 }
+
+customElements.define('lit-page', MyPage);
+
