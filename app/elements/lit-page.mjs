@@ -7,9 +7,9 @@ import './lit-footer.mjs';
 export default class MyPage extends LitElement {
   render() {
     return html`
-      <my-header></my-header>
-      <my-article></my-article>
-      <my-footer></my-footer>
+      <lit-header></lit-header>
+      <lit-article></lit-article>
+      <lit-footer></lit-footer>
     `;
   }
 }
